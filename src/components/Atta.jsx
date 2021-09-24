@@ -1,5 +1,8 @@
 import React from "react";
 
+import "../css.css";
+import "../index.css";
+
 const Atta = () => {
   return (
     <div>
@@ -22,16 +25,17 @@ const Atta = () => {
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                   Patanjali Atta at Grofers
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-base a-tags">
                   <a
                     href="https://grofers.com/prn/patanjali-traditional-whole-wheat-with-bran-chakki-atta/prid/55388?lat=28.635571&lon=77.20391"
                     target="#"
+                    className="a-tags"
                   >
                     Patanjali Traditional Whole Wheat with Bran Chakki Atta (MRP
                     : ₹340)
                   </a>
                 </p>
-                <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                <button className="button">
                   <a
                     href="https://grofers.com/prn/patanjali-traditional-whole-wheat-with-bran-chakki-atta/prid/55388?lat=28.635571&lon=77.20391"
                     target="#"
@@ -52,15 +56,17 @@ const Atta = () => {
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                   PATANJALI Whole Wheat Atta 10 kg
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-base a-tags">
                   <a
                     href="https://www.flipkart.com/patanjali-whole-wheat-atta/p/itmf9a535dea9f6d?pid=FLREW8SHHHYRP4NN&lid=LSTFLREW8SHHHYRP4NNDSS9N6&marketplace=GROCERY&cmpid=content_flour_12825718239_u_8965229628_gmc_pla&tgi=sem,1,G,11214002,u,,,516793455547,,,,c,,,,,,,&ef_id=Cj0KCQjwv5uKBhD6ARIsAGv9a-y73ktrnmPYDiaRkfS7vFWdJ-UUbjW3FYWdrdwOXMnQzfgkUMMj3B0aAlaZEALw_wcB:G:s&s_kwcid=AL!739!3!516793455547!!!u!293946777986!&gclid=Cj0KCQjwv5uKBhD6ARIsAGv9a-y73ktrnmPYDiaRkfS7vFWdJ-UUbjW3FYWdrdwOXMnQzfgkUMMj3B0aAlaZEALw_wcB"
                     target="#"
+                    className="a-tags"
                   >
                     Patanjali Whole wheat atta at flipkart (Price : ₹340)
                   </a>
                 </p>
-                <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                <br />
+                <button className="button">
                   <a
                     href="https://www.flipkart.com/patanjali-whole-wheat-atta/p/itmf9a535dea9f6d?pid=FLREW8SHHHYRP4NN&lid=LSTFLREW8SHHHYRP4NNDSS9N6&marketplace=GROCERY&cmpid=content_flour_12825718239_u_8965229628_gmc_pla&tgi=sem,1,G,11214002,u,,,516793455547,,,,c,,,,,,,&ef_id=Cj0KCQjwv5uKBhD6ARIsAGv9a-y73ktrnmPYDiaRkfS7vFWdJ-UUbjW3FYWdrdwOXMnQzfgkUMMj3B0aAlaZEALw_wcB:G:s&s_kwcid=AL!739!3!516793455547!!!u!293946777986!&gclid=Cj0KCQjwv5uKBhD6ARIsAGv9a-y73ktrnmPYDiaRkfS7vFWdJ-UUbjW3FYWdrdwOXMnQzfgkUMMj3B0aAlaZEALw_wcB"
                     target="#"
@@ -81,11 +87,18 @@ const Atta = () => {
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                   Patanjali Atta (10kg)
                 </h2>
-                <p className="leading-relaxed text-base">
-                  <a href="https://groceries.tryitfirst.in/patanjali-whole-wheat-atta-10-kg.html"></a>
+
+                <p className="leading-relaxed text-base a-tags">
+                  {" "}
+                  {/* eslint-disable-next-line*/}
+                  <a
+                    href="https://groceries.tryitfirst.in/patanjali-whole-wheat-atta-10-kg.html"
+                    className="a-tags"
+                  ></a>
                   Patanjali Whole Wheat Atta -10 KG (PRICE : ₹410 )
                 </p>
-                <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                <br />
+                <button className="button">
                   <a
                     href="https://groceries.tryitfirst.in/patanjali-whole-wheat-atta-10-kg.html"
                     target="#"

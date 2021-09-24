@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../index.css";
+
 const Rice = () => {
   return (
     <div>
@@ -22,7 +24,7 @@ const Rice = () => {
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                   India Gate Basmati Rice at bigbasket (10kg , PRICE : ₹268.70)
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-base a-tags">
                   <a
                     href="https://www.bigbasket.com/pd/40000750/india-gate-basmati-rice-mograbroken-5-kg-bag/?z=MzE0OTkyNTYyMQ&utm_source=google&utm_medium=cpc&utm_campaign=Jaipur-PLA/&gclid=Cj0KCQjwv5uKBhD6ARIsAGv9a-yBU4fvRHUF1FPlHYrT0EJN-RnsKWcYkwvezBrYeR860H9Eda9_IlEaAvzIEALw_wcB"
                     target="#"
@@ -31,7 +33,7 @@ const Rice = () => {
                     Bag
                   </a>
                 </p>
-                <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                <button className="button">
                   <a
                     href="https://www.bigbasket.com/pd/40000750/india-gate-basmati-rice-mograbroken-5-kg-bag/?z=MzE0OTkyNTYyMQ&utm_source=google&utm_medium=cpc&utm_campaign=Jaipur-PLA/&gclid=Cj0KCQjwv5uKBhD6ARIsAGv9a-yBU4fvRHUF1FPlHYrT0EJN-RnsKWcYkwvezBrYeR860H9Eda9_IlEaAvzIEALw_wcB"
                     target="#"
@@ -52,7 +54,7 @@ const Rice = () => {
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                   INDIA GATE Feast Rozzana Basmati Rice (5kg [PRICE : ₹308])
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-base a-tags">
                   <a
                     href="https://www.flipkart.com/india-gate-feast-rozzana-basmati-rice/p/itmex3vwkcp96nzz?pid=RICEUC2YTX7QRV9M&lid=LSTRICEUC2YTX7QRV9MXMUZUF&marketplace=GROCERY&cmpid=content_rice_8965229628_gmc"
                     target="#"
@@ -61,7 +63,7 @@ const Rice = () => {
                   </a>
                 </p>{" "}
                 <br />
-                <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                <button className="button">
                   <a
                     href="https://www.flipkart.com/india-gate-feast-rozzana-basmati-rice/p/itmex3vwkcp96nzz?pid=RICEUC2YTX7QRV9M&lid=LSTRICEUC2YTX7QRV9MXMUZUF&marketplace=GROCERY&cmpid=content_rice_8965229628_gmc"
                     target="#"
@@ -83,12 +85,13 @@ const Rice = () => {
                   INDIA GATE Mogra Basmati Rice (Broken Grain) (5kg [PRICE :
                   ₹308])
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-base a-tags">
+                  {/* eslint-disable-next-line*/}
                   <a href="https://www.flipkart.com/india-gate-mogra-basmati-rice-broken-grain/p/itmf7ahhhfdzgmdd?pid=RICEUC2YJAGMXRYF&lid=LSTRICEUC2YJAGMXRYFOW140W&marketplace=GROCERY&iid=8b924724-f6f9-41ed-8575-6e7ad49e3502.RICEUC2YJAGMXRYF.SEARCH"></a>
                   INDIA GATE Feast Rozzana Basmati Rice at flipkart
                 </p>
                 <br />
-                <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                <button className="button">
                   <a
                     href="https://www.flipkart.com/india-gate-mogra-basmati-rice-broken-grain/p/itmf7ahhhfdzgmdd?pid=RICEUC2YJAGMXRYF&lid=LSTRICEUC2YJAGMXRYFOW140W&marketplace=GROCERY&iid=8b924724-f6f9-41ed-8575-6e7ad49e3502.RICEUC2YJAGMXRYF.SEARCH"
                     target="#"

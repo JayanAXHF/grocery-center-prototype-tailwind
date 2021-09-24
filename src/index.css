@@ -1,3 +1,25 @@
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
+
+@layer components {
+  .button {
+    @apply flex mx-auto mt-6 border-black border-solid border-2 text-black bg-white py-2 px-5
+  }
+
+  .button:hover {
+    @apply bg-black text-white rounded
+  }
+
+  .a-tags:hover {
+    @apply text-yellow-500
+  }
+
+  .button:focus {
+    @apply outline-none
+  }
+
+
+}

@@ -1,0 +1,15 @@
+footer {
+    bottom: 3;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+
+    line-height: 3rem !important;
+
+    display: inline-flex;
+}
+
+
+.up-arrow {
+    justify-self: flex-end;
+}
